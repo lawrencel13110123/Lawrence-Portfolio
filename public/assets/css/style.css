@@ -1,0 +1,259 @@
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: underline; 
+}
+
+a {
+	text-decoration: none; 
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+footer {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.professional-logo {
+	height: 50px;
+	width: auto;
+	margin-right: 5px;
+}
+
+.items {
+	display: inline-block;
+	padding: 5px;
+	background: white;
+	color: hotpink;
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-size: 30px;
+}
+
+.project-panel > p { 
+	font-size: 30px;
+	font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+
+.learn-btn {
+	position: absolute;
+	left: 37.5%;
+	top: 35%;
+	opacity: 0; 
+	background-color: transparent;
+	border: 0.5px black solid;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.project-panel {
+	position: relative;
+	margin: 50px 0px 50px 0px;
+}
+
+.project-icon {
+	height: 130px;
+	width: auto;
+	margin-bottom: 5px;
+}
+
+.project-panel:hover .project-icon{
+  opacity: 0.3;
+}
+
+.project-panel:hover p {
+  opacity: 0.3;
+}
+
+.project-panel:hover .learn-btn {
+  opacity: 1;
+}
+
+.page-icon {
+	height: 100px;
+	width: auto;
+	margin-bottom: 10px; 
+	text-align: center; 
+}
+
+.overview-content {
+	text-align: justify;
+	font-size: 20px;
+}
+
+.tech-content {
+	text-align: center;
+	font-size: 20px;
+}
+
+.demo { 
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.exit-btn {
+	font-size: 40px;
+	color: darkgrey;
+	float: right;
+	background-color: transparent;
+	border: none;
+}
+
+
+/*.demo-img {
+	height: auto; 
+	width: 600px;
+}*/
+
+#about-content {
+	font-size: 20px;
+	margin-top: 50px;
+	text-align: justify;
+}
+
+#about-wall:after {
+    content:'';
+    background-image: url("../images/wallpaper3.gif");
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 300px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity: 0.2; /* Here is your opacity */
+}
+
+#about-wall {
+    position: relative;
+    width: 100%;
+}
+
+
+#name-banner > div > p > a {
+	text-decoration: none; 
+	color: hotpink;
+}
+
+#name-banner > div > p > a:hover {
+  font-size: 40px;
+}
+
+#wall {
+	position: relative;
+	height: 800px;
+	background-image: url("../images/wallpaper.gif");
+}
+
+#name-banner {
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 700%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#contact-form {
+	font-size: 15px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	color: black;
+	padding: 10px;
+}
+
+#contact-content {
+	background-image: url("../images/wallpaper2.gif");
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+}
+
+
+@media screen and (max-width: 1199px) {
+
+	.learn-btn {
+		left: 45%;
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+
+	.learn-btn {
+		left: 43.5%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+	#name-banner {
+		font-size: 550%;
+		left: 52%;
+	}
+
+	.items {
+		font-size: 25px;
+	}
+
+	#name-banner > div > a:hover {
+	  font-size: 35px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	#name-banner {
+		font-size: 500%;
+		left: 53%;
+	}
+
+	.items {
+		font-size: 25px;
+	}
+
+	#name-banner > div > a:hover {
+	  font-size: 35px;
+	}
+
+	.learn-btn {
+		left: 42.5%;
+	}
+
+
+}
+
+@media screen and (max-width: 480px) {
+	#name-banner {
+		font-size: 450%;
+		left: 54%;
+	}
+
+	.items {
+		font-size: 20px;
+	}
+
+	#name-banner > div > a:hover {
+	  font-size: 30px;
+	}
+
+	.learn-btn {
+		left: 40%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	.learn-btn {
+		left: 38.3%;
+	}
+}
